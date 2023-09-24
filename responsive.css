@@ -1,0 +1,35 @@
+@media (max-width:650px){
+.NAVleft img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+.CONTENTtop h1{
+    font-size: 20px;
+}
+.CONTENTtop p{
+    font-size: 12px;
+}
+#nav{
+    margin-left: 10px;
+}
+.CONTENTtop{
+    margin-left: 10px;
+}
+.CONTENTbot{
+    margin-left: 10px;
+}
+.CONTENTbot{
+    display: inline;
+}
+.CONTENTbotLEFT img{
+    width: 360px;
+    height: 200px;
+}
+.CONTENTbotRIGHT img{
+    width: 360px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+}

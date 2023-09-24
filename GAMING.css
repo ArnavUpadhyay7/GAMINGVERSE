@@ -1,0 +1,90 @@
+#nav{
+    display: flex;
+    width: 95%;
+    height: 80px;
+    margin: 20px;
+}
+.NAVleft{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.NAVleft h1{
+    font-size: 2.5vw;
+    color: red;
+}
+.NAVright{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.NAVright a{
+    font-size: 1.8vw;
+    color: aliceblue;
+    text-decoration: none;
+}
+.NAVright a:hover{
+    color: red;
+}
+.NAVright button{
+    font-size: 1.8vw;
+}
+#content{
+    width: 100%;
+    height: 660px;
+}
+.CONTENTtop{
+    width: 100%;
+    margin: 20px;
+}
+.CONTENTtop h1{
+    font-size: 2.5vw;
+    color: white;
+}
+.CONTENTtop p{
+    font-size: 1.5vw;
+    color: white;
+}
+.CONTENTtop span{
+    color: red;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.button button{
+    margin-top: 10px;
+    font-size: 2vw;
+}
+button{
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+button:hover{
+    background-color: orangered;
+}
+.CONTENTbot{
+    display: flex;
+}
+.CONTENTbotLEFT{
+    width: 50%;
+}
+.CONTENTbotLEFT img{
+    height: 400px;
+    width: 100%;
+}
+.CONTENTbotRIGHT{
+    width: 50%;
+}
+.CONTENTbotRIGHT img{
+    height: 400px;
+    width: 100%;
+}
+.NAVleft img{
+    border-radius: 50%;
+    margin-left: 20px;
+}
